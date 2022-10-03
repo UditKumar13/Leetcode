@@ -1,0 +1,18 @@
+
+1.Binary search : 
+
+https://leetcode.com/discuss/general-discussion/786126/Python-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems
+
+2. Some Intersesting Questions 
+
+
+Q 145 Postorder
+Q 146 
+Q Max number of subsequence in a string
+Q Min OPerations to Halve Array sum
+
+
+Time complexity 
+https://leetcode.com/discuss/interview-question/1105473/Solving-problems-with-aid-of-problem-constraints
+
+

@@ -1,0 +1,385 @@
+Leetcode Questions List
+Insipration 1 
+Manik Dhupar 
+
+Insipiration 2
+https://leetcode.com/tanyarajhans7/
+https://leetcode.com/numb3r5/
+
+U tube channel for dsa and coding :
+https://www.youtube.com/channel/UCLW2XdGVRZ-6wNJhzBUxvBA/playlists
+
+
+Java Important Github Questions 
+https://github.com/nkatre/Learning-Java
+
+gfg_Question = 27 (extra)
+
+Revision sheet :
+https://github.com/Sunchit/Coding-Decoded/tree/master/SDE%20Revision%20Sheet
+
+
+
+Block Chain :
+https://www.youtube.com/watch?v=gyMwXuJrbJQ
+
+C++/Java OOps 
+https://github.com/ankurgupta2020/python
+
+Difference between c++ and java oops :
+https://www.geeksforgeeks.org/similarities-and-difference-between-java-and-c/
+
+To speed up the u tube speed :
+document.getElementsByTagName("video")[0].playbackRate = 2.5
+
+Memory in java
+https://www.baeldung.com/java-stack-heap
+
+Oops C++ Cheatsheet 
+https://github.com/vineethm1627/OOP
+
+
+pass by reference in java :
+https://www.educative.io/edpresso/how-to-pass-by-reference-in-java
+
+
+4.C C++ Questions 
+https://www.youtube.com/watch?v=h-HBipu_1P0&list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_
+
+Java comparator 
+https://www.geeksforgeeks.org/comparator-interface-java/
+
+APNI CODING :
+https://docs.google.com/spreadsheets/d/1hXserPuxVoWMG9Hs7y8wVdRCJTcj3xMBAEYUOXQ5Xag/edit#gid=0
+
+Bday:
+Jeet : 20April
+Ankur :24April
+Adi : 7 March
+Saloni : 
+Lala : 26 jan 
+Rahul : 30/31 dec
+Ayush : 2 oct
+Sid : 14 july
+Sanchu : 9 july
+
+1.DP 
+Aditya verma 
+
+2.Graph and Tress 
+Striver
+
+3.System Design 
+Gaurav sen
+
+Ankur Profile:
+https://leetcode.com/user4167p/
+
+Time complexity with n constraint
+https://www.hackerearth.com/practice/basic-programming/complexity-analysis/time-and-space-complexity/tutorial/
+
+Trees : 
+Striver 
+
+Graphs:
+Striver
+
+Dynammic Programming:
+Aditya Verma 
+
+
+1.Min op to half sum array.(Contest Biweekly 74)(done)
+2.Kth Largest element in an array.Q(215) (done)
+3.Matrix Median (done)
+4.Maximize Number of Subsequence in a String(done)
+5.https://www.geeksforgeeks.org/number-of-subsequences-with-even-and-odd-sum/(done)
+6.74 (done)
+7.189(done)
+8.Single ele in sorted array Q540(done)
+9.Search in Rotated Sorted Array Q33(done)
+10.Find Minimum in Rotated Array Q153()
+10.Leetocde Gray code Medium 89(done)
+11.Leetcode 121(done)
+12.Leetcode 443(done)
+13.Leetcode Easy 717(done)
+14.Leetcode 433()** Lets do 14 first
+15.Leetcode 4(**Hard Nice one)(done)
+16.Leetcode 83 Easy (done)
+17.GFG kth ele in 2 sorted array(done)
+18.Allocate-books(Asked in Google and Flipkart)(done)
+19.Leetcode 1671 (Hard)()
+20.Leetcode 416 (Medium)(done)
+21.Leetcode 70 (Easy)(done)				
+22.Leetcode 338 Easy() 
+23.Leetcode 918 Medium (done)
+
+24.Leetcode 5 (done) ** Mancher's Algorithm O(n)
+25.Leetcode 91(done)
+26.Leetcode 421(done) 
+27.leetcode 1707(done)
+28.Leetcode 1441(done)
+29.Leetcode 494()
+30.Leetcode 680, Easy(done)
+31.Leetcode 225,Easy(done)
+32.Leetcode 232,Easy(done)
+33.Leetcode 496, Easy(done)
+34.Leetcode 504, Easy (done)
+35.Sort a stack (done) processing.
+https://www.geeksforgeeks.org/sort-a-stack-using-recursion/
+
+36.Leetcode 191() do long time baad
+37.Leetcode 231() do long time baad.
+38.Leetcode 542() medium.
+39.Leetcode 1721(done) med
+40.Leetcode 11 (done) med
+41.Leetcode 923()
+Do once again med.***write in the notebook
+Logic :
+https://leetcode.com/problems/3sum-with-multiplicity/discuss/1123894/3Sum-With-Multiplicity-or-Short-and-Easy-w-Explanation-or-Beats-100
+42.Leetcode 1641()
+43.Leetcode 1046(Done)
+44.Leetcode 75()
+45.Leetcode 703(Done)
+46.Leetcode 146(Done) med**
+47.Leetcode 347(Done) // many questions are linked to it.
+48.Leetcode 652(Done)
+49.Leetcode 647()
+50.Leetcode contest 259()
+51.Leetcode contest 258()
+52.leetcode 84(done)
+53.leetcode 85() * lATER
+54.Leetcode 289(done)
+55.Leetcode 700 (done)
+56.Interview bit pair with given xor ()
+57.Leetcode delete node in bst 450(done)
+58.Leetcode 669 (done)
+59.Leetcode 145 Iteratively(done)
+60.Leetcode 226(done)
+61.Leetcode 897(done) see the solution.
+62.Leetocode 230(done)
+63.Leetcode 99(done) Crazy question.
+64.Leetcode 173(done) 
+65.Leetcode 705(done) ** crazy Question
+66.Leetcdoe 987()
+67.Leetcode 535() Do it 
+68.Leetcode 1396() Do it once again.
+69.Leetcode 284(done)
+70.Leetcode 1584() Do it again.
+71.Leetcode 1631() Do it again.
+72.Leetcode 785(done) 
+73.Leetcode 399(done)
+74.Leetcode 844(done) easy
+
+75.Leetcode 581(done) do it once more optimal 
+76. Leetcode ekk auur dc tha 
+77.Leetocode 1209 (done) do it again.
+78.Leetcode 456 (done).
+https://leetcode.com/problems/132-pattern/discuss/94089/Java-solutions-from-O(n3)-to-O(n)-for-%22132%22-pattern-(updated-with-one-pass-slution)
+
+79.Leetcode 17 (done) do it again.
+80.Leetcode 216 med (done) do it again 
+81.Leetcode 1641 med () do it again
+82.Leetcode 47 med (done) do it again.
+83.Leetcode 116 med (done) 
+84.Leetcode 117 med (done)
+85.Leetcode 743 med (done)
+https://leetcode.com/problems/network-delay-time/discuss/2036271/Java-oror-beats-100-oror-best-question-to-understand-Dijkastras
+86.Leetcode 1407 easy (done)
+87.Leetcode 1302 med (done)
+88.Leetcode 1091 med (done)
+89.Leetcode 994 med (done)
+90.Celebrity Problem (done)
+91.Leetcode 901 (done)
+92.Leetcode 1379 (done) but do the optimized approach
+93.Leetcode  151 ()
+94.Leetcode 5 (done)
+95.Leetcode 13 (done)
+96.Leetcode 2271 (done) Contest 
+https://www.youtube.com/watch?v=p6KG7T2mcRU
+97.leetcode 8 (done)
+98.leetcode 1192 () hard  (Tarjan Algorithm)S 
+https://www.youtube.com/watch?v=-fMUndhKVx0
+99.
+100.Leetcode 28 (done) easy
+101.Leetcode 242 (done) easy
+102.Interview bit  (done)
+103.Leetcode 1143 (done) med 
+103.Leetcode 516 (done) med
+104.Leetcode 1312 (done) Hard  **
+105.Leetcode 329 (done) Hard ** do it again tomorrow 
+106.Leetcode 38 (done)
+107.Leetcode 165 (done) 
+108.Leetcode 322 () have to do it again. coin chaange
+109.Morris traversal video () @ _ @ do it later 
+110. Leetcode 647 (done)
+111. Leetcode 474 (done) ** 
+https://www.youtube.com/watch?v=qkUZ87NCYSw
+112.Bottom view (done)
+113.Top view (done)
+114.Leetcode 513 med 1(done)
+https://www.youtube.com/watch?v=OsnikyPMU3Q
+115.Leetcode 102 med 2(done) 
+116.Leetcode 104 easy (done)
+117.Leetcode 543 easy (done) do it with striver
+118.Leetcode 32 hard (done) med 5 ** 
+119.Leetcode 110 (done) easy
+120.Leetcode 236 med(done)
+121.Leetcode 100 easy  (done)
+122.Leetcode dolls () do it again
+123.Leetcode 103 (done) zigzag med
+124.Leetcode boundary traversal med (done)
+https://www.youtube.com/watch?v=0ca1nvR0be4
+125.Leetcode 191 easy (done)
+126.Leetcode 231 easy (done)
+med 1 
+127.Leetcode 112 easy (done)
+128.Leetcode 129 med 2(done)
+129.Leetcode 662 med 3 (done) max width of binary tree.
+https://www.youtube.com/watch?v=ZbybYvcVLks
+130.Leetcode 124 hard (done) med 5 (do it once more with striver) ()
+131.Leetcode 1342 easy(done)
+132.Mirror tree easy (done)
+133.Flatten Binary tree to linked list (done)
+134.Search in a binary search tree 700 easy(done)
+135.Leetcode Valid BST  98 (done) med 3 
+136.Interview bit Distinct number in window med 4 (done)
+137.Leetcode 29 (done) 
+138.Leetcode 1319 ()
+139.Leetcode easy 235 (done)
+140.gfg inorder successor (done)
+141.Floor in BST vid 1 (done)
+142.Ceil in BST vid 2 (done)
+143.Kth largest ele in BST easy (done)
+144.Leetcode 653 easy(done)
+145.Leetcode 1373 hard (done)
+146.Leetcode 449 med (done)
+https://www.youtube.com/watch?v=lP2yP8Iy88c
+147.Leetcode 297 (done) hard ** (good q)
+148.Leetcode 295 hard () 
+149.Leetcode 733 easy (done) 
+150.Leetcode 1480 easy (done)
+151.Boundary tarversal (done)
+152.burn a binary tree (done) 
+153.Leetcode 863 (done)
+154.Leetcode 222 (done)
+155.Leetcode 701 (done) 
+156.Leetcode 1038 (done)
+157.Leetcode 1008 (done)
+158.Leetcode 655 ()
+159.Leetcode 1026 () 
+160.Leetcode 207 ()
+Similar Questions 
+161.Leetcode 210()
+162.Leetcode 310 ()
+like 207 
+163.Leetcode 167 () 
+164.Leetcode 133 (done)
+165.Leetcode 207 (done)
+166.Leetcode 200 (done)
+167.Leetcode 153 (done) med
+For graphs :
+168.Leetcode 1615(done) med
+169.Leetcode 886(done) med  by bfs 
+170.Leetcode 785(done) med
+171.Leetcode 542(done) one 
+172.Leetcode 365(done)two
+173.Leetcode 1658(done)three
+174.Leetcode 1129(done)four
+175.Leetcode 802(done) ** Microsoft
+https://www.youtube.com/watch?v=yFJpECT0GvU&t=1012s
+176.Leetcode 1926(done)
+You have to find the reason why this will not work for dfs, 
+because we will never guess which calls can leads to the shortest path ,
+so in this case use only bfs for finding the shortest path.
+177.Leetcode 542 (done)
+178.Leetcode 417(done)
+
+
+// Dp 
+
+179.Leetcode 64 (done)
+180.Leetcode 583(done)
+181.Leetcode 1219 (done)
+182.Leetcode 1048 (done) 
+https://leetcode.com/problems/longest-string-chain/discuss/2153004/Explaining-Three-Approaches-or-JAVA
+
+183.Leetcode 152 (done)
+184.Leetcode 300 (done)
+Similar type
+11.Leetcode 334()
+12.Leetcode 673()
+185.Leetcode 1143 (done)
+https://leetcode.com/problems/longest-common-subsequence/discuss/847407/Java-(Brute-Force-Recursion-With-Memoization-2D-Dyanmic-Programming)
+186.Knapsack(done)
+187.Edit distance (done)
+Leetcode 72 (done)
+188.Maximum sum increasing subsequence (done)
+189. 2 Question LinkedList (done)
+190.Matrix chain multiplication (done)
+191.Leetcode 931 (done)
+Maximum filling path sum
+192.Coin change  Leetcode 322 (done)
+193.Coin Change 2 Leetcode (done)
+194.Leetcode 1268 (done)
+195.Leetcode 820 () do it again Trie 
+196.Leetcode 416 (done)
+197.Leetcode 1547 hard ()now 
+198.Leetcode 1642 () 
+199.Rod cutting 
+Leetcode 1547 (done)
+200.Leetcode 887 (done)
+201.Leetcode 139 (done)
+202.Leetcode 132 (done) 
+203.Leetcode 1235 (done)
+204.Leetcode 260(done)
+205.Leetcode 665 () do it again  
+206.Leetcode 1423 () do it again
+207.Leetcode 1647 (done) do it again 
+208.Leetcode min opertion to make an array beautiful ()
+209.Leetcode 1671 ()
+210.Leetcode 1615 (done)
+211.Leetcode 1653 (done)
+212.Leetcode 346 (done)
+https://leetcode.com/problems/wiggle-subsequence/discuss/84843/Easy-understanding-DP-solution-with-O(n)-Java-version
+213.Leetcode 1465 (done) do it again .
+214.leetcode 2139 (done)
+215.Leetcode 55 (done)
+216.Leetcode 413 (done)
+217.Leetcode 135 (done) hard
+https://www.youtube.com/watch?v=Ya-LfQ0OBkU
+218.Leetcode 1404 (done) med Good question 
+219.Leetcode 2309 (done) easy 
+220.Leetcode 509 (done) easy 
+221.Leetcode 97 (done) medium 
+222.Leetcode 1310 ()
+223.Leetcode 1906 ()
+224.Leetcode 79 (done)
+225.Leetcode 45 ()
+226.Leetcode 1996 () daily challenge 
+227.https://www.geeksforgeeks.org/maximum-xor-value-of-a-pair-from-a-range (done)
+228.https://www.geeksforgeeks.org/value-in-a-given-range-with-maximum-xor (done)
+229.https://leetcode.com/discuss/interview-question/1845128/Uber-Software-Engineer-India-(University)-2022-Graduates-Coding-Test ()
+230.Leetcode 1383 ()
+231.Leetcode 336 () hard
+232.Leetcode 622()
+233.Leetcode 2418 (done)
+234.Leetcode 2419 (done)
+235.Leetcode 2420 (done)
+236.Leetcode 2421 () very important Question 
+https://leetcode.com/problems/number-of-good-paths/discuss/2620532/JAVA-UnionFind-Solution-Explanation
+237.Leetcode 76(done )
+238.Leetcode 567 () revision 
+239.Leetcode 209 (done)
+240.Leetcode 838 () Ineresting problem 
+https://www.youtube.com/watch?v=MOaJ1kZ21Fs
+241.Leetcode 2423 (done)
+242.
+
+
+
+
+
+
+
+
+
