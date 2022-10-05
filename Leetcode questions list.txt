@@ -373,8 +373,12 @@ https://leetcode.com/problems/number-of-good-paths/discuss/2620532/JAVA-UnionFin
 240.Leetcode 838 () Ineresting problem 
 https://www.youtube.com/watch?v=MOaJ1kZ21Fs
 241.Leetcode 2423 (done)
-242.
-
+Contest Question 
+242.Leetcode 2429 ()
+243.Leetocde 1155 ()
+244.Leetcode 1578 ()
+245.Leetcode 623 ()
+246.Leetcode 2426 ()
 
 
 
