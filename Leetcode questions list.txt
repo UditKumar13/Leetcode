@@ -377,11 +377,12 @@ Contest Question
 242.Leetcode 2429 (done)
 243.Leetcode 2430 (done)
 243.Leetocde 1155 (done)
-244.Leetcode 1578 ()
+244.Leetcode 1578 (done)
 245.Leetcode 623 (done)
 246.Leetcode 2426 ()
 247.Leetcode 732 (done)
 248.Leetcode 43()
+249.Leetcode 16()
 
 
 
