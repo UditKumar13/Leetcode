@@ -378,8 +378,9 @@ Contest Question
 243.Leetcode 2430 ()
 243.Leetocde 1155 ()
 244.Leetcode 1578 ()
-245.Leetcode 623 ()
+245.Leetcode 623 (done)
 246.Leetcode 2426 ()
+247.Leetcode 732 ()
 
 
 
