@@ -379,10 +379,19 @@ Contest Question
 243.Leetocde 1155 (done)
 244.Leetcode 1578 (done)
 245.Leetcode 623 (done)
-246.Leetcode 2426 ()
+246.Leetcode 2426 () 3
 247.Leetcode 732 (done)
-248.Leetcode 43()
+248.Leetcode 43() 2
 249.Leetcode 16(done)
+250.Leetcode 1328 (done)
+251.Leetcode 334 (done)
+252.leetcode 976 (done)
+253.Leetcode 2432 (done)
+254.Leetcode 2433 (done)
+255.Leetcode 2435 (done)
+256.Leetcode 2434 () 1
+257.Leetcode 214 () hard 
+
 
 
 
