@@ -402,10 +402,23 @@ https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/discuss/49046
 265.Leetcode 113 () path sum ii
 266.Leetcode 437 () path sum iii
 267.Leetcode 835 () Image overlap
+268.Leetcode 49 (done) Group anagrams
+https://leetcode.com/problems/group-anagrams/discuss/1889233/Java-oror-Easy-oror-HashMap
+269.Leetcode 2136 () hard 
+Earliest possible day of full bloom 
+https://leetcode.com/problems/earliest-possible-day-of-full-bloom/discuss/2754482/Java-oror-Explained-in-Detailoror-Simple-and-Fast-Solutionoror-Greedy-%2B-Sorting
+270.Leetcode 1293 ()
+271.Leetcode 766 () 
 
 
+You tube Api Key 
+AIzaSyBjttnme10Clfxwz0-DYxgcdCMSITmgcAo
+OINZDwAAQBAJ
 
-
+Api call : 
+https://youtube.googleapis.com/youtube/v3/search?key=AIzaSyBjttnme10Clfxwz0-DYxgcdCMSITmgcAo+&type=video&part=snippet+&q=harryPotter+BookReview
+How to play the video :
+https://www.youtube.com/watch?v=wIk8EhLbrZ0
 
 
 
