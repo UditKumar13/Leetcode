@@ -390,13 +390,16 @@ Contest Question
 254.Leetcode 2433 (done)
 255.Leetcode 2435 (done)
 256.Leetcode 2434 (done) 1
-257.Leetcode 214 () hard 
+257.Leetcode 214 (done) hard 
 258.Leetcode 2095 (done) med 
 259.Leetcode 1531 () hard 
 260.Leetcode 1335 () hard 
 https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/discuss/490460/Java-Bottom-Up-DP-with-explanation
 261.Leetcode sunday contest ()
+Leetcode 2444 (done) Count subarray with fixed Bounds 
+https://leetcode.com/contest/weekly-contest-315/
 262.Leetcode Saturday Contest ()
+https://leetcode.com/contest/biweekly-contest-89/
 263.Leetcode 1832 (done)
 264.Leetcode 523 (done) Continous Subarray sum 
 265.Leetcode 113 () path sum ii
@@ -410,7 +413,8 @@ https://leetcode.com/problems/earliest-possible-day-of-full-bloom/discuss/275448
 270.Leetcode 1293 ()
 271.Leetcode 766 () 
 
-
+kmp ()
+https://www.youtube.com/watch?v=__Cu92rei1s&list=PL-Jc9J83PIiEFGyDMHQ72DTyrgg0B0f8Y
 You tube Api Key 
 AIzaSyBjttnme10Clfxwz0-DYxgcdCMSITmgcAo
 OINZDwAAQBAJ
