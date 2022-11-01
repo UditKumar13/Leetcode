@@ -400,6 +400,8 @@ Leetcode 2444 (done) Count subarray with fixed Bounds
 https://leetcode.com/contest/weekly-contest-315/
 262.Leetcode Saturday Contest ()
 https://leetcode.com/contest/biweekly-contest-89/
+272.Leetcode 2438 (done) Range Product queries of product 
+273.Leetcode 2439 (done) Minimize Maximum of Array 
 263.Leetcode 1832 (done)
 264.Leetcode 523 (done) Continous Subarray sum 
 265.Leetcode 113 () path sum ii
