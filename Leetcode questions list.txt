@@ -395,13 +395,14 @@ Contest Question
 259.Leetcode 1531 () hard 
 260.Leetcode 1335 () hard 
 https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/discuss/490460/Java-Bottom-Up-DP-with-explanation
-261.Leetcode sunday contest ()
+261.Leetcode sunday contest (done)
 Leetcode 2444 (done) Count subarray with fixed Bounds 
 https://leetcode.com/contest/weekly-contest-315/
 262.Leetcode Saturday Contest ()
 https://leetcode.com/contest/biweekly-contest-89/
 272.Leetcode 2438 (done) Range Product queries of product 
 273.Leetcode 2439 (done) Minimize Maximum of Array 
+274.Leetcode 2440 Create Component with same value () 
 263.Leetcode 1832 (done)
 264.Leetcode 523 (done) Continous Subarray sum 
 265.Leetcode 113 () path sum ii
@@ -414,6 +415,9 @@ Earliest possible day of full bloom
 https://leetcode.com/problems/earliest-possible-day-of-full-bloom/discuss/2754482/Java-oror-Explained-in-Detailoror-Simple-and-Fast-Solutionoror-Greedy-%2B-Sorting
 270.Leetcode 1293 ()
 271.Leetcode 766 () 
+275.Leetcode 1706 ()
+276.Leetcode 433 ()
+https://leetcode.com/problems/minimum-genetic-mutation/discuss/91484/Java-Solution-using-BFS
 
 kmp ()
 https://www.youtube.com/watch?v=__Cu92rei1s&list=PL-Jc9J83PIiEFGyDMHQ72DTyrgg0B0f8Y
