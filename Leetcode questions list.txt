@@ -413,7 +413,7 @@ https://leetcode.com/problems/group-anagrams/discuss/1889233/Java-oror-Easy-oror
 269.Leetcode 2136 (done) hard  
 Earliest possible day of full bloom 
 https://leetcode.com/problems/earliest-possible-day-of-full-bloom/discuss/2754482/Java-oror-Explained-in-Detailoror-Simple-and-Fast-Solutionoror-Greedy-%2B-Sorting
-270.Leetcode 1293 SHortest path in a grid with obstacles elmination ()
+270.Leetcode 1293 SHortest path in a grid with obstacles elmination (done)
 https://medium.com/algorithms-digest/shortest-path-in-a-grid-with-obstacles-elimination-ad0c07ed41c2
 271.Leetcode 766 (done) 
 275.Leetcode 1706 () **
@@ -429,6 +429,9 @@ Grid Problems
 1102 ()
 1368 ()
 1631 ()
+
+
+
 https://www.youtube.com/watch?v=__Cu92rei1s&list=PL-Jc9J83PIiEFGyDMHQ72DTyrgg0B0f8Y
 You tube Api Key 
 AIzaSyBjttnme10Clfxwz0-DYxgcdCMSITmgcAo
