@@ -410,16 +410,25 @@ https://leetcode.com/contest/biweekly-contest-89/
 267.Leetcode 835 () Image overlap
 268.Leetcode 49 (done) Group anagrams
 https://leetcode.com/problems/group-anagrams/discuss/1889233/Java-oror-Easy-oror-HashMap
-269.Leetcode 2136 () hard 
+269.Leetcode 2136 (done) hard  
 Earliest possible day of full bloom 
 https://leetcode.com/problems/earliest-possible-day-of-full-bloom/discuss/2754482/Java-oror-Explained-in-Detailoror-Simple-and-Fast-Solutionoror-Greedy-%2B-Sorting
-270.Leetcode 1293 ()
-271.Leetcode 766 () 
-275.Leetcode 1706 ()
-276.Leetcode 433 ()
+270.Leetcode 1293 SHortest path in a grid with obstacles elmination ()
+https://medium.com/algorithms-digest/shortest-path-in-a-grid-with-obstacles-elimination-ad0c07ed41c2
+271.Leetcode 766 (done) 
+275.Leetcode 1706 () **
+276.Leetcode 433 (done)
 https://leetcode.com/problems/minimum-genetic-mutation/discuss/91484/Java-Solution-using-BFS
+277.Leetcode 2131 (DONE) Longest palindrome by concatinating two words 
+https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/discuss/2772074/Java-oror-Explained-in-Detailoror-Simple-and-Fast-Solutionoror-Counting-oror-Hash-Table-oror-Greedy
+kmp (done)
+278.Leetcode 409 () Longest Palindrome 
 
-kmp ()
+
+Grid Problems 
+1102 ()
+1368 ()
+1631 ()
 https://www.youtube.com/watch?v=__Cu92rei1s&list=PL-Jc9J83PIiEFGyDMHQ72DTyrgg0B0f8Y
 You tube Api Key 
 AIzaSyBjttnme10Clfxwz0-DYxgcdCMSITmgcAo
