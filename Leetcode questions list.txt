@@ -1,4 +1,7 @@
 Leetcode Questions List
+
+Let us do in both language java and c++ 
+
 Insipration 1 
 Manik Dhupar 
 
@@ -434,6 +437,7 @@ https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/soluti
 282.Leetcode 374 (done)
 283.Leetcode 223 ()
 https://leetcode.com/problems/rectangle-area/solutions/62302/clean-c-solution-with-detailed-explanations/?orderBy=most_votes&languageTags=cpp
+
 Dell Company :
 Username : ukumar1362841
 password : *Ukmagic@13*
