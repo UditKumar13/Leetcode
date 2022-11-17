@@ -19,6 +19,8 @@ Revision sheet :
 https://github.com/Sunchit/Coding-Decoded/tree/master/SDE%20Revision%20Sheet
 
 
+Python Exercises :
+https://github.com/zhiwehu/Python-programming-exercises
 
 Block Chain :
 https://www.youtube.com/watch?v=gyMwXuJrbJQ
@@ -423,6 +425,18 @@ https://leetcode.com/problems/minimum-genetic-mutation/discuss/91484/Java-Soluti
 https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/discuss/2772074/Java-oror-Explained-in-Detailoror-Simple-and-Fast-Solutionoror-Counting-oror-Hash-Table-oror-Greedy
 kmp (done)
 278.Leetcode 409 () Longest Palindrome 
+279.Leetcode 345 ()
+280.Leetcode 212 () Word search II () 
+https://leetcode.com/problems/word-search-ii/solutions/2779595/java-easy-solution-100-faster/
+Leetcode competition () :
+281.Leetcode 947 (done)
+https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/solutions/239162/DFS-Time-O(N)-Space-O(N)-ConciseandandReadable/
+282.Leetcode 374 (done)
+283.Leetcode 223 ()
+https://leetcode.com/problems/rectangle-area/solutions/62302/clean-c-solution-with-detailed-explanations/?orderBy=most_votes&languageTags=cpp
+Dell Company :
+Username : ukumar1362841
+password : *Ukmagic@13*
 
 
 Grid Problems 
@@ -445,4 +459,11 @@ https://www.youtube.com/watch?v=wIk8EhLbrZ0
 
 
 
+Kare First Electronics (Kalkaji , Kalkaji)
+K75A Basement Near Kalkaji Jewellers & Sargum Electronics Kalkaji New Delhi - 110019
+Mr. Md Kasim : 8882345734,01143621871
+
+
+
+Based Zeus :
 
