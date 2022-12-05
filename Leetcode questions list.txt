@@ -1,4 +1,4 @@
-Leetcode Questions List
+-Leetcode Questions List
 
 Let us do in both language java and c++ 
 
@@ -410,7 +410,7 @@ https://leetcode.com/contest/biweekly-contest-89/
 274.Leetcode 2440 Create Component with same value () 
 263.Leetcode 1832 (done)
 264.Leetcode 523 (done) Continous Subarray sum 
-265.Leetcode 113 () path sum ii
+265.Leetcode 113 (done) path sum ii
 266.Leetcode 437 () path sum iii
 267.Leetcode 835 () Image overlap
 268.Leetcode 49 (done) Group anagrams
@@ -432,16 +432,33 @@ kmp (done)
 280.Leetcode 212 () Word search II () 
 https://leetcode.com/problems/word-search-ii/solutions/2779595/java-easy-solution-100-faster/
 Leetcode competition () :
-281.Leetcode 947 (done)
+281.Leetcode 2466 ()
+https://leetcode.com/problems/count-ways-to-build-good-strings/solutions/2807155/coin-change-problem-variant/?orderBy=most_votes&languageTags=java
+282.Leetcode 2467 ()
+283.Leetcode 2468 ()
+
+284.Leetcode 947 (done)
 https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/solutions/239162/DFS-Time-O(N)-Space-O(N)-ConciseandandReadable/
-282.Leetcode 374 (done)
-283.Leetcode 223 ()
+285.Leetcode 374 (done)
+286.Leetcode 223 (done)
 https://leetcode.com/problems/rectangle-area/solutions/62302/clean-c-solution-with-detailed-explanations/?orderBy=most_votes&languageTags=cpp
+287.Leetcode 1926 ()
+https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/solutions/2834813/leetcode-the-hard-way-explained-line-by-line/?orderBy=most_votes&languageTags=cpp
+288.Leetcode 587 ()
+Erect the fence 
+289.Leetcode 446 ()
+Arthimetic slices ii
+290.Leetcode 380 ()
+291.Leetcode 1705 () Maximum number of eaten apple 
+292.Leetcode 251 ()
 
 Dell Company :
+*Dell SignUp
+https://www.myworkday.com/wday/authgwy/dell/login.htmld?redirect=n
 Username : ukumar1362841
 password : *Ukmagic@13*
-
+* Ganesh Sir 
+https://www.linkedin.com/in/ganeshhiregoudar/?originalSubdomain=in
 
 Grid Problems 
 1102 ()
@@ -450,6 +467,8 @@ Grid Problems
 
 
 
+Chess Watching 
+Tata Steel Chess India 2022 Open | Rapid | Day 2 | Live commentary by Sagar, Tania
 https://www.youtube.com/watch?v=__Cu92rei1s&list=PL-Jc9J83PIiEFGyDMHQ72DTyrgg0B0f8Y
 You tube Api Key 
 AIzaSyBjttnme10Clfxwz0-DYxgcdCMSITmgcAo
