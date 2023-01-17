@@ -21,6 +21,8 @@ gfg_Question = 27 (extra)
 Revision sheet :
 https://github.com/Sunchit/Coding-Decoded/tree/master/SDE%20Revision%20Sheet
 
+Ankur Advice :
+https://podcasts.google.com/feed/aHR0cHM6Ly93d3cub21ueWNvbnRlbnQuY29tL2QvcGxheWxpc3QvNGJiMzM3MDQtNjE1Yi00MDU0LWFhZTktYWNlNTAwZmQ0MTk3L2M2ZTE4YmIxLTY1MGMtNDNiZi1hODUyLWFjZTYwMDQ4MjQxOS85YmFjMWQ2ZC0zZjNhLTQyOGEtYjhkMS1hY2U2MDA0OTFiMmIvcG9kY2FzdC5yc3M/episode/NDNmMDMwODgtMDUyMy00NjY4LThiYjItYWU5MjAxMzhkMWIw?ep=14
 
 Python Exercises :
 https://github.com/zhiwehu/Python-programming-exercises
@@ -456,6 +458,22 @@ Arthimetic slices ii
 295.Leetcode 409 (done)
 https://leetcode.com/problems/longest-palindrome/solutions/791646/c-python-java-it-is-only-easy-when-you-think-really-hard-to-spot-the-built-in-nature/?orderBy=most_votes&languageTags=java
 
+296.Leetcode 1026 ()
+297.Leetcode 1339 (done)
+
+
+
+298.frog jump 407, jump game, jump game 2, leetcode 6263 ()**
+299.Leetcode 6262 ()
+300.Leetcode 452 (done) Min no. of arrows to burst the ballons
+
+301.Leetcode 149 (done) hard  
+302.Leetcode 51 (done) med
+303.Leetcode 926 (done) med
+https://leetcode.com/problems/flip-string-to-monotone-increasing/discuss/3061225/Python-3-oror-7-lines-w-explanation-and-example-oror-TM%3A-100-96
+
+
+
 Dell Company :
 *Dell SignUp
 https://www.myworkday.com/wday/authgwy/dell/login.htmld?redirect=n
@@ -463,6 +481,9 @@ Username : ukumar1362841
 password : *Ukmagic@13*
 * Ganesh Sir 
 https://www.linkedin.com/in/ganeshhiregoudar/?originalSubdomain=in
+*Arnav Mathur Recuiter :
+Arnav.Mathur@Dell.com
+Udit Kumar (1362841)
 
 Grid Problems 
 1102 ()
@@ -493,4 +514,13 @@ Mr. Md Kasim : 8882345734,01143621871
 
 
 Based Zeus :
+
+
+
+learning studio 
+jeera
+surge
+confluence
+power store kit repository 
+
 
