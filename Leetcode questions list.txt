@@ -474,7 +474,10 @@ https://leetcode.com/problems/flip-string-to-monotone-increasing/discuss/3061225
 304.Leetcode 973(done) med
 305.Leetcode 491 (done) med
 306.Leetcode 93 (done) med  
-
+307.Leetcode 2359 () med
+308.Leetcode 2203 () hard graph 
+309.Leetcode 787 (done) graph 
+310.Leetcode 472 (done) recursion 
 
 Dell Company :
 *Dell SignUp
