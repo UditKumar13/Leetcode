@@ -1,5 +1,5 @@
-Using Dijkstra's algortihm 
-TC // O((n+e)logn)
+//Using Dijkstra's algortihm 
+// TC : O((n+e)logn) actually it was (e.log n ^ 2)
 
 class Solution {
     
@@ -23,6 +23,10 @@ class Solution {
         int[] distance = new int[n];
         Arrays.fill(distance,Integer.MAX_VALUE);
         distance[k-1] = 0; // source node
+
+        // distance[i] array stores min distance to reach the node i from source node k.
+        // graph [i][j] is the edge weight from i to j.
+        // graph[i][j] = Integer.MAX_VALUE means no edge is present between i and j.
         
         boolean [] visited = new boolean[n];
         for(int i=0; i<n; i++){
