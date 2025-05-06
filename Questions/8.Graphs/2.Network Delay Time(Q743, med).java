@@ -27,10 +27,11 @@ class Solution {
         // distance[i] array stores min distance to reach the node i from source node k.
         // graph [i][j] is the edge weight from i to j.
         // graph[i][j] = Integer.MAX_VALUE means no edge is present between i and j.
-        
+
         boolean [] visited = new boolean[n];
         for(int i=0; i<n; i++){
             int v = minIndex(distance,visited);
+            // it helps us to find the next minimum distance node which is not visited yet from the previous source.
             if(v == -1) continue;
             visited[v] = true;
             for(int j=0; j<n; j++){
