@@ -1,15 +1,15 @@
 // TC : O(N*N*4) 
-at the worst case suppose we have all rotten oranges that can be N*N , and for every cell we are exploring the 4 directions so that's why the time complexity is that 
+// at the worst case suppose we have all rotten oranges that can be N*N , and for every cell we are exploring the 4 directions so that's why the time complexity is that 
 
 // SC : O(N*N)
-queue stack can be N*N in the worst case where every cell in the matrix is a rotten  orange
+// queue stack can be N*N in the worst case where every cell in the matrix is a rotten  orange
 
 class Solution {
     public int orangesRotting(int[][] grid) {
         if(grid == null || grid.length == 0) return 0;
         int m = grid.length,n = grid[0].length;
         Queue <int[]> q = new LinkedList<>();
-        int count_fresh =0;
+        int count_all_non_empty_cells_initially =0;
         
         for(int i=0;i<m;i++){
             for(int j=0;j<n;j++){
@@ -19,20 +19,20 @@ class Solution {
                 }
                 
                 if(grid[i][j] != 0 ){
-                    count_fresh++;
+                    count_all_non_empty_cells_initially++;
                 }
             }
         }
         
         // for loop ends here 
-        int min_Time =  0,queue_Cnt = 0;
+        int min_Time =  0,non_empty_cells_with_bfs= 0;
         int []dx = {0,0,1,-1};
         int []dy = {1,-1,0,0};
         
         // main logic bfs 
         while(!q.isEmpty()){
             int size = q.size();
-            queue_Cnt += size; // count the number of ele in queue
+            non_empty_cells_with_bfs += size; // count the number of ele in queue
             for(int i=0;i<size;i++){
                 int [] point = q.poll();
                 for(int j=0;j<4;j++){
@@ -54,7 +54,7 @@ class Solution {
         }
         
         // while closes here
-        return count_fresh == queue_Cnt ? min_Time: -1;
+        return count_all_non_empty_cells_initially == non_empty_cells_with_bfs ? min_Time: -1;
          
     }
 }
