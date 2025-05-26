@@ -21,6 +21,7 @@ class Node implements Comparator<Node>
             return 1; 
         return 0; 
     } 
+    // it sort the nodes based on the weight in ascending order
 }
 
 class Main
