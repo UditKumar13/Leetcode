@@ -49,9 +49,15 @@ class Main
         	parent[v] = u;
         	rank[u]++; 
         }
+        // rank is just a supporting array to keep track of the height of the tree
+        // so that we can always attach the smaller tree under the larger tree
+        // this helps in keeping the tree flat and optimizes the find operation.
 	}
     void KruskalAlgo(ArrayList<Node> adj, int N)
     {
+
+        // kruskal algorithm to find the minimum spanning tree (MST) of a connected,
+        //  weighted, undirected graph
         Collections.sort(adj, new SortComparator());
         int parent[] = new int[N]; 
         int rank[] = new int[N];
@@ -65,6 +71,9 @@ class Main
         ArrayList<Node> mst = new ArrayList<Node>();
         for(Node it: adj) {
         	if(findPar(it.getU(), parent) != findPar(it.getV(), parent)) {
+                // because we are using union-find data structure to check if the edge is creating a cycle or not
+                // they have different parents not form a cycle.
+               // if they have same parent then it means they are already connected and adding this edge will create a cycle                
         		costMst += it.getWeight(); 
         		mst.add(it); 
         		union(it.getU(), it.getV(), parent, rank); 

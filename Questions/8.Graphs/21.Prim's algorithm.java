@@ -17,6 +17,8 @@ class Main
 {
     void primsAlgo(ArrayList<ArrayList<Node>> adj, int N)
     {
+
+        // Prim's algorithm to find the minimum spanning tree (MST) of a graph
         int key[] = new int[N];
         int parent[] = new int[N]; 
         boolean mstSet[] = new boolean[N]; 
@@ -128,6 +130,10 @@ class Node implements Comparator < Node > {
 
 class Main {
     void primsAlgo(ArrayList < ArrayList < Node >> adj, int N) {
+        // Prim's algorithm to find the minimum spanning tree (MST) of a connected,
+        //  weighted, undirected graph
+        // Using a priority queue to efficiently get the minimum weight edge
+        // Initialize key values, parent array, and mstSet array
         int key[] = new int[N];
         int parent[] = new int[N];
         boolean mstSet[] = new boolean[N];
