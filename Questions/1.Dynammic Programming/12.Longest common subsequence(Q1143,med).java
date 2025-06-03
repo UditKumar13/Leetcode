@@ -22,6 +22,6 @@ class Solution {
 }
 
 
-Tc // O(n**2)
+Tc // O(m*n)
 
-Sc // O(n**2)
+Sc // O(m*n)
