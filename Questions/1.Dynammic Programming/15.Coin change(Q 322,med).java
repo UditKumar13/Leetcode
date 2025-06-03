@@ -19,7 +19,7 @@ class Solution {
     int not_take = 0 + recursion(coins, rem_amount, idx-1);
     int take = Integer.MAX_VALUE;
     if(coins[idx] <= rem_amount){
-      take = 1 + recursion(coins, rem_amount - coins[idx], idx);
+      take = 1 + recursion(coins, rem_amount - coins[idx], idx); // idx still remains same because we can take the same coin again
     }
     return Math.min(take, not_take);
   }
