@@ -1,38 +1,54 @@
+
+// memoization approach
 class Solution {
-  
- 
+    
+    // tc : O(m*n)
+    // sc : O(m+n) + O(m*n) == O(m*n)
+    // memo technique 
     public int uniquePaths(int m, int n) {
-        
-     // we will not use factorial 
-    // the ans is (m+n-2)! / (m-1) ! * (n-1)!
-      // number of paths 
-      
-      if(m==1 || n==1){
-        return 1 ;
-      }
-      
-      m--;
-      n--;
-      
-      // let us make the m bigger 
-  
-      if (m<n){
-        // swap m and  n 
-        m = m + n ;
-        n = m - n ; 
-        m = m - n ; 
-        
-      }
-      
-      
-      // instead of using the factorial we will be using a simple for loop
-      long res = 1  ;; 
-      for(int i = m+1, j =1 ; i<= m + n ; i++,j++){
-        res *= i;
-        res /= j; 
-      }
-      
-      return (int)res ; 
-      
+        int [][]dp = new int[m][n];
+        for(int []row: dp){
+            Arrays.fill(row, -1);
+        }
+        int ans = recursion(m-1, n-1, dp);
+        return ans;
+    }
+    
+    public int recursion(int i, int j, int[][]dp){
+        if(i<0 || j<0) return 0;
+        if(i == 0 && j ==0) return 1;
+        if(dp[i][j] != -1) return dp[i][j];
+        int up = recursion(i-1, j, dp);
+        int left = recursion(i, j-1,dp);
+        return dp[i][j] = up + left;
     }
 }
+
+// tabulation approach 
+class Solution {
+    
+    // tc : O(m*n)
+    // sc : O(m*n)
+    //tabulation 
+    public int uniquePaths(int m, int n) {
+        int [][]dp = new int[m][n];
+        for(int []row: dp){
+            Arrays.fill(row, -1);
+        }
+        for(int i=0; i<m;i++){
+            for(int j=0;j<n;j++){
+                if(i==0 && j==0) dp[i][j] = 1;
+                else{
+                int up = 0, left = 0;
+                if(i>0) up = dp[i-1][j];
+                if(j>0) left = dp[i][j-1];
+                dp[i][j] = up + left;  
+                }
+               
+            }
+        }
+        
+        return dp[m-1][n-1];
+    }
+}
+
