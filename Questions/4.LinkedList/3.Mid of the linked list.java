@@ -15,11 +15,12 @@ class Solution {
       if(head == null || head.next == null ){
         return head ;
       }
+
       ListNode slow = head;
-      ListNode fast =head ; // initialize both of them to the starting 
+      ListNode fast = head; // initialize both of them to the starting 
       
       while( fast.next != null && fast.next.next != null){
-        fast  =fast.next.next ; 
+        fast = fast.next.next ; 
         slow = slow.next ; 
         
       }

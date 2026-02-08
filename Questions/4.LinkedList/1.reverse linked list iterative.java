@@ -13,7 +13,7 @@ class Solution {
         
       // iterative solution 
       
-      ListNode newNode = null ; 
+      ListNode newNode = null ;
       
       while(head != null ){
       

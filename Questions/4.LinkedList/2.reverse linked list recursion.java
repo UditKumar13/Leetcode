@@ -20,9 +20,9 @@ class Solution {
       
    public ListNode reverse(ListNode head, ListNode newHead){
      
-     
-     if(head == null ){
-       return newHead ; 
+      // base case
+     if(head == null){
+       return newHead;
      }
      else {
        
