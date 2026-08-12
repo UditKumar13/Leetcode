@@ -61,32 +61,53 @@ public class Main {
 }
 
 /*
+Go version:
 
-in go syntax  :
+package main
+import "fmt"
 
-func minSubArrayLen(target int, nums []int) int {
+func minSubArrayLen (target int, nums[] int) int {
+	left := 0
+	windowSum := 0
+	minSize := int(^uint(0) >> 1)
 
-// using sliding window
+	for right :=0; right < len(nums); right ++ {
+		windowSum += nums[right]
 
-    left := 0
-    windowSum := 0
-    minSize := math.MaxInt32
+		for windowSum >= target {
+			if right - left + 1 < minSize {
+				minSize = right - left + 1
+			}
+			windowSum -= nums[left]
+			left++
+		}
+	}
+	if minSize == int(^uint(0) >> 1){
+		return 0
+	}
+	return minSize
 
-    for right := 0; right < len(nums); right++ {
-        windowSum += nums[right]
-
-        // shrink window 
-        for windowSum >= target {
-            minSize = int(math.Min(float64(minSize), float64(right - left + 1)))
-            windowSum -= nums[left]
-            left++
-        }
-    }
-
-    if minSize == math.MaxInt32 {
-        return 0
-    }
-    return minSize
 }
 
+func main() {
+	fmt.Println("Hello, World!")
+	fmt.Println("Enter the array size :")
+	var n int
+	fmt.Scan(&n)
+	nums := make([]int, n)
+	for i :=0; i< n; i++ {
+		fmt.Scan(&nums[i])
+	}
+	for i :=0; i < n; i++ {
+		fmt.Println(nums[i])
+	}
+	fmt.Println("Enter target:")
+	var target int
+	fmt.Scan(&target)
+
+	mss := minSubArrayLen(target, nums)
+	fmt.Println("min minSubArrayLen is : ", mss)
+
+}
 */
+
