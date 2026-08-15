@@ -27,6 +27,9 @@ class Solution {
 
 same in go language
 
+package main
+
+import "math"
 
 func findMaxAverage(nums []int, k int) float64 {
 	if k > len(nums) {
