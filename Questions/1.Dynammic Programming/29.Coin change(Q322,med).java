@@ -1,81 +1,102 @@
-public class Solution {
-public int coinChange(int[] coins, int target) {
-    int n = coins.length;
-    int max = Integer.MAX_VALUE-1;
-    
-    int [][]dp = new int[n][target+1];
-    for(int T=0;T<=target;T++){
-        if(T % coins[0] == 0) dp[0][T] = T/coins[0];
-        else dp[0][T] = max;
+
+/*
+
+brute force in go : 
+
+func coinChange(coins []int, amount int) int {
+    result := helper(coins, amount)
+    if result == math.MaxInt32 {
+        return -1
     }
-    
-    // base case 
-    
-    for(int idx =1; idx<n; idx++){
-        for(int T=0; T<=target; T++){
-            int notTake = 0 + dp[idx-1][T];
-            int take = max;
-            
-            if(coins[idx] <=T){
-                take = 1 + dp[idx][T-coins[idx]];
-            }
-            
-            dp[idx][T] = Math.min(take,notTake);
+    return result
+}
+func helper(coins []int, amount int) int {
+    if amount == 0 {
+        return 0
+    }
+    if amount < 0 {
+        return math.MaxInt32
+    }
+    best := math.MaxInt32
+    for _, coin := range coins {
+        sub := helper(coins, amount-coin)
+        if sub != math.MaxInt32 && sub+1 < best {
+            best = sub + 1
         }
     }
-    
-    int minCoin = dp[n-1][target];
-    if(minCoin >=max) return -1;
-    return minCoin;
-}
+    return best
 }
 
-// Tc : O(n * T)
-
-// Sc : O(n * T)
+*/
 
 
-
-// Approach 2 :
-
-space optimized 
-
-public class Solution {
-public int coinChange(int[] coins, int target) {
-    int n = coins.length;
-    int max = Integer.MAX_VALUE-1;
-    int []prev = new int[target+1];
-    int []curr = new int[target+1];
-    for(int T=0;T<=target;T++){
-        if(T % coins[0] == 0) prev[T] = T/coins[0];
-        else prev[T] = max;
+class Solution {
+    public int coinChange(int[] coins, int amount) {
+        int result = helper(coins, amount);
+        return result == Integer.MAX_VALUE ? -1 : result;
     }
-    
-    // base case 
-    
-    for(int idx =1; idx<n; idx++){
-        for(int T=0; T<=target; T++){
-            int notTake = 0 + prev[T];
-            int take = max;
-            
-            if(coins[idx] <=T){
-                take = 1 + curr[T-coins[idx]];
+    private int helper(int[] coins, int amount) {
+        if (amount == 0) return 0;
+        if (amount < 0) return Integer.MAX_VALUE; // invalid path
+        
+        int best = Integer.MAX_VALUE;
+        for (int coin : coins) {
+            int sub = helper(coins, amount - coin);
+            if (sub != Integer.MAX_VALUE) {
+                best = Math.min(best, sub + 1);
             }
-            
-            curr[T] = Math.min(take,notTake);
         }
-        prev = curr;
+        return best;
     }
+}
+
+// Time : O(coins.length ^ amount) | Space : O(amount) (for the recursion stack)
+
+class Solution {
+    private int[] memo;
     
-    int minCoin = prev[target];
-    if(minCoin >=max) return -1;
-    return minCoin;
+    public int coinChange(int[] coins, int amount) {
+        memo = new int[amount + 1];
+        Arrays.fill(memo, -2); // -2 = "not computed yet" (distinct from -1 = "impossible")
+        int result = helper(coins, amount);
+        return result == Integer.MAX_VALUE ? -1 : result;
+    }
+    private int helper(int[] coins, int amount) {
+        if (amount == 0) return 0;
+        if (amount < 0) return Integer.MAX_VALUE;
+        if (memo[amount] != -2) return memo[amount];
+        
+        int best = Integer.MAX_VALUE;
+        for (int coin : coins) {
+            int sub = helper(coins, amount - coin);
+            if (sub != Integer.MAX_VALUE) {
+                best = Math.min(best, sub + 1);
+            }
+        }
+        memo[amount] = best;
+        return best;
+    }
 }
+
+// Time : O(coins.length * amount) | Space : O(amount) (for the memoization array + recursion stack)
+
+class Solution {
+    public int coinChange(int[] coins, int amount) {
+        int[] dp = new int[amount + 1];
+        Arrays.fill(dp, amount + 1); // "infinity" sentinel — amount+1 coins is never achievable
+        dp[0] = 0;
+        
+        for (int a = 1; a <= amount; a++) {
+            for (int coin : coins) {
+                if (coin <= a) {
+                    dp[a] = Math.min(dp[a], dp[a - coin] + 1);
+                }
+            }
+        }
+        return dp[amount] > amount ? -1 : dp[amount];
+    }
 }
 
-// Tc : O(N * T)
+// Time : O(coins.length * amount) | Space : O(amount) (for the dp array)
 
-// SC : O(2N)
-
-only 2 rows prev and curr
 
