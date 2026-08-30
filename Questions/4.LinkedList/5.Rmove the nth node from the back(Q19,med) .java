@@ -1,11 +1,53 @@
 /*
+Optimal: Min-Heap (Priority Queue)
 
-Optimal: Two Pointers with an N-gap (one pass)
+Idea: Put the head node of each of the k lists into a min-heap, keyed by value. Repeatedly pop the smallest, attach it to your result, and push its next node (if any) back into the heap. This is LC 21's two-pointer merge generalized to k pointers using a heap to always know which pointer is smallest.
+Time: O(N log k) — N total nodes, each heap push/pop is O(log k). Space: O(k) for the heap.
 
-Idea: Move fast pointer n steps ahead first. Then move slow and fast together until fast hits the end. slow now sits right before the node to remove — because the gap between them is always exactly n.
-Time: O(L) — single pass. Space: O(1).
+Java (class Solution format):
 */
 
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+
+// Time: O(N log k) — N total nodes, each pushed/popped from heap of size k
+// Space: O(k) — heap only holds k nodes at a time
+
+
+class Solution {
+public ListNode mergeKLists(ListNode[] lists) {
+    if (lists.length == 0) return null;
+    ListNode result = lists[0];
+    for (int i = 1; i < lists.length; i++) {
+        result = mergeTwoLists(result, lists[i]);
+    }
+    return result;
+}
+
+private ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+    ListNode dummy = new ListNode(-1);
+    ListNode curr = dummy;
+    while (l1 != null && l2 != null) {
+        if (l1.val <= l2.val) { curr.next = l1; l1 = l1.next; }
+        else { curr.next = l2; l2 = l2.next; }
+        curr = curr.next;
+    }
+    curr.next = (l1 != null) ? l1 : l2;
+    return dummy.next;
+}
+}
+
+/*
+optimal in java
+*/
 
 /**
  * Definition for singly-linked list.
@@ -18,46 +60,72 @@ Time: O(L) — single pass. Space: O(1).
  * }
  */
 class Solution {
-    public ListNode removeNthFromEnd(ListNode head, int n) {
-        ListNode dummy = new ListNode(-1, head);
-        ListNode slow = dummy, fast = dummy;
+    public ListNode mergeKLists(ListNode[] lists) {
+        PriorityQueue<ListNode> heap = new PriorityQueue<>((a, b) -> a.val - b.val);
 
-        // move fast n steps ahead
-        for (int i = 0; i < n; i++) {
-            fast = fast.next;
+        // seed the heap with each list's head
+        for (ListNode node : lists) {
+            if (node != null) heap.offer(node);
         }
 
-        // move both until fast reaches the last node
-        while (fast.next != null) {
-            slow = slow.next;
-            fast = fast.next;
-        }
+        ListNode dummy = new ListNode(-1);
+        ListNode curr = dummy;
 
-        // slow is now right before the node to remove
-        slow.next = slow.next.next;
+        while (!heap.isEmpty()) {
+            ListNode smallest = heap.poll();
+            curr.next = smallest;
+            curr = curr.next;
+
+            if (smallest.next != null) {
+                heap.offer(smallest.next);
+            }
+        }
 
         return dummy.next;
     }
 }
 
-
 /*
-in go  :
-func removeNthFromEnd(head *ListNode, n int) *ListNode {
-    dummy := &ListNode{Next: head}
-    slow, fast := dummy, dummy
+Optimal: Min-Heap (Priority Queue)
 
-    for i := 0; i < n; i++ {
-        fast = fast.Next
-    }
+Idea: Put the head node of each of the k lists into a min-heap, keyed by value. Repeatedly pop the smallest, attach it to your result, and push its next node (if any) back into the heap. This is LC 21's two-pointer merge generalized to k pointers using a heap to always know which pointer is smallest.
+Time: O(N log k) — N total nodes, each heap push/pop is O(log k). Space: O(k) for the heap.
 
-    for fast.Next != nil {
-        slow = slow.Next
-        fast = fast.Next
-    }
-
-    slow.Next = slow.Next.Next
-
-    return dummy.Next
-}
+Java (class Solution format):
 */
+
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+class Solution {
+    public ListNode mergeKLists(ListNode[] lists) {
+        PriorityQueue<ListNode> heap = new PriorityQueue<>((a, b) -> a.val - b.val);
+
+        // seed the heap with each list's head
+        for (ListNode node : lists) {
+            if (node != null) heap.offer(node);
+        }
+
+        ListNode dummy = new ListNode(-1);
+        ListNode curr = dummy;
+
+        while (!heap.isEmpty()) {
+            ListNode smallest = heap.poll();
+            curr.next = smallest;
+            curr = curr.next;
+
+            if (smallest.next != null) {
+                heap.offer(smallest.next);
+            }
+        }
+
+        return dummy.next;
+    }
+}
