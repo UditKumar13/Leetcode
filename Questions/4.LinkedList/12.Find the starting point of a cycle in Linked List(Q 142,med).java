@@ -11,37 +11,47 @@
  */
 public class Solution {
     public ListNode detectCycle(ListNode head) {
-      
-      
-      // base case 
-      
-      if(head == null || head.next == null) return null ; 
-       
-      // step 1 find the meeting point of s and f
-      
-      ListNode slow = head  ;
-      ListNode fast = head  ;
-      
-      while(fast != null && fast.next != null){
-        slow = slow.next ; // 1 jump
-        fast = fast.next.next ; // 2 jump 
-        
-        if (slow == fast) break ;
-      }
-      
-      if(slow != fast) return null ; // no cycle 
-      
-      // now we are standing at the meeting point of slow and fast , keep slow there and update fast at head
-      
-      fast = head ; 
-      
-      while(fast != slow){
-        fast = fast.next ; // both 1 jump
-        slow = slow.next ;
-        
-        if (fast == slow )break ; 
-      }
-      return fast ; 
-      
+        ListNode slow = head, fast = head;
+
+        // Phase 1: detect if a cycle exists
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+
+            if (slow == fast) {
+                // Phase 2: find the cycle start
+                ListNode ptr = head;
+                while (ptr != slow) {
+                    ptr = ptr.next;
+                    slow = slow.next;
+                }
+                return ptr;
+            }
+        }
+
+        return null; // no cycle
     }
 }
+
+/*
+
+in go : 
+
+func detectCycle(head *ListNode) *ListNode {
+    slow, fast := head, head
+    for fast != nil && fast.Next != nil {
+        slow = slow.Next
+        fast = fast.Next.Next
+        if slow == fast {
+            ptr := head
+            for ptr != slow {
+                ptr = ptr.Next
+                slow = slow.Next
+            }
+            return ptr
+        }
+    }
+    return nil
+}
+
+*/
