@@ -38,7 +38,7 @@ class Solution {
             for(Integer it: adj.get(i)) {
                 indegree[it]++; 
             }
-        }
+        } // make indegree array 
         
         Queue<Integer> q = new LinkedList<Integer>(); 
         for(int i = 0;i<N;i++) {
@@ -46,18 +46,22 @@ class Solution {
                 q.add(i); 
             }
         }
+        // add all nodes with indegree 0 to queue
+
         int cnt = 0;
         while(!q.isEmpty()) {
             Integer node = q.poll(); 
             cnt++; 
             for(Integer it: adj.get(node)) {
-                indegree[it]--; 
+                indegree[it]--;  // decrease indegree of adjacent nodes
                 if(indegree[it] == 0) {
                     q.add(it); 
                 }
             }
         }
-        if(cnt == N) return false; 
+        if(cnt == N) return false; // if count of nodes in topological sort is equal to 
+        // number of nodes in graph then no cycle else cycle exists
+
         return true; 
     }
 }

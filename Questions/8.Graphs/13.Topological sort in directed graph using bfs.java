@@ -32,7 +32,7 @@ import java.lang.*;
                     topo[ind++] = node;
                     cnt++;
                     //getting neighbour nodes of popped node and decreasing  their 
-                    indegree by1
+                   // indegree by1
                     for(Integer it: adj.get(node)) {
                         indegree[it]--;
                         if(indegree[it] == 0) {

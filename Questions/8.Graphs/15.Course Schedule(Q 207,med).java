@@ -46,10 +46,58 @@ class Solution {
         return canFinish;
     }
 }
+// Why this is equivalent to "no cycle"
 
+// This is really just simulating a valid course order one layer at a time (like BFS levels). 
+// If you can peel off all V nodes this way, you've produced a valid topological order — which only
+//  exists for a DAG. If you get stuck with leftover nodes whose indegree never reaches 0, those 
+//  leftover nodes must form (or feed into) a cycle, since the only reason a 
+// node's indegree stays positive forever is that its prerequisite chain loops back to itself.
 
 // bfs 
 
 TC : O(n + e)
 
 SC : O(n+e) + O(n)
+
+
+// dfs 
+
+import java.util.*;
+
+class Solution {
+    public boolean canFinish(int numCourses, int[][] prerequisites) {
+        List<List<Integer>> graph = new ArrayList<>();
+        for (int i = 0; i < numCourses; i++) {
+            graph.add(new ArrayList<>());
+        }
+        for (int[] p : prerequisites) {
+            // p[0] depends on p[1] -> edge p[1] -> p[0]
+            graph.get(p[1]).add(p[0]);
+        }
+
+        // 0 = unvisited, 1 = visiting (in current DFS path), 2 = fully processed
+        int[] state = new int[numCourses];
+
+        for (int i = 0; i < numCourses; i++) {
+            if (!dfs(i, graph, state)) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    private boolean dfs(int node, List<List<Integer>> graph, int[] state) {
+        if (state[node] == 1) return false; // back edge -> cycle found
+        if (state[node] == 2) return true;  // already verified, skip
+
+        state[node] = 1; // mark as "in progress"
+        for (int neighbor : graph.get(node)) {
+            if (!dfs(neighbor, graph, state)) {
+                return false;
+            }
+        }
+        state[node] = 2; // mark as fully processed
+        return true;
+    }
+}
