@@ -1,42 +1,27 @@
+import java.util.*;
+
 class Solution {
-    
-    public int[] nextGreaterArray(int[] arr){
-        Stack <Integer> st = new Stack<>();
-        int [] ngn = new int [arr.length];
-        for(int i=arr.length-1;i>=0;i--){
-            while(!st.isEmpty() && st.peek() <= arr[i] ){
-                st.pop();
-            }
-            
-            if(i<=arr.length-1){
-                if(st.isEmpty() == false) ngn[i] = st.peek();
-                else ngn[i] = -1;
-            }
-            
-            st.push(arr[i]);
-        }
-        
-        return ngn;
-    }
-    
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
-        
-        HashMap <Integer,Integer> map = new HashMap<>();
-        int [] ngn = nextGreaterArray(nums2);
-        int [] nextGreater = new int[nums1.length];
-        
-        
-        for(int idx=0; idx<nums2.length;idx++){
-            map.put(nums2[idx],idx);
+        Map<Integer, Integer> nextGreaterMap = new HashMap<>();
+        Deque<Integer> stack = new ArrayDeque<>(); // holds values, monotonic decreasing
+
+        for (int num : nums2) {
+            // current num is the "next greater" for everything smaller sitting on the stack
+            while (!stack.isEmpty() && stack.peek() < num) {
+                nextGreaterMap.put(stack.pop(), num);
+            }
+            stack.push(num);
         }
-        
-        for(int i=0;i<nextGreater.length;i++){
-            int data = nums1[i];
-            int index = map.get(data);
-            nextGreater[i] = ngn[index];
+        // anything left on the stack at the end has no next greater element
+        while (!stack.isEmpty()) {
+            nextGreaterMap.put(stack.pop(), -1);
         }
-        
-        return nextGreater;
-        
+
+        int[] result = new int[nums1.length];
+        for (int i = 0; i < nums1.length; i++) {
+            result[i] = nextGreaterMap.get(nums1[i]);
+        }
+        return result;
     }
 }
+
